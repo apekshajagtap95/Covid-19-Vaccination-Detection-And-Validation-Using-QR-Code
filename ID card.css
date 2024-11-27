@@ -1,0 +1,101 @@
+*
+        {
+            margin:00px;
+            padding: 00px;
+            
+        }
+        body{
+            /* background-color: blanchedalmond; */
+             background-image: url("https://play-lh.googleusercontent.com/YUBDky2apqeojcw6eexQEpitWuRPOK7kPe_UbqQNv-A4Pi_fXm-YQ8vTCwPKtxIPgius=w240-h480-rw"); 
+        }
+        .container
+        {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            flex-direction: row;
+
+            
+
+        }
+        .font
+        {
+            
+            height: 250px;
+            width:380px;
+            position: relative;
+            border: 20px solid hsl(0, 1%, 69%);
+            border-radius: 20px;
+            background-image:url('https://a.rgbimg.com/users/o/or/organza3/300/msE62kY.jpg');
+            background-size: 380px 250px;
+            background-repeat: no-repeat;
+        }
+        
+        .logo{
+            color:White;
+            left: 200px;
+            padding: 10px;
+            font-size:25px;
+            margin: left 80px;;
+        }
+
+        .tab {padding-right:30px;}
+
+        .top img
+        {
+            height: 80px;
+            width:500px;
+            background-color:#e6ebe0;
+            border-radius:57px;
+            position: absolute;
+            down:25%;
+            left: 102px;
+            margin-top: 10px;
+            object-fit: content;
+            border:3px solid rgba(255 , 255 , 255 , .2);
+            
+        }
+        .ename{
+            position: absolute;
+            top: 5px;
+            left: 90px;
+            color:black;
+            font-size:14px;
+        }
+        .personaldetails
+        {
+            position: absolute;
+            top: 80px;
+            left: 90px;
+            text-transform:capitalize;
+            font-size: 14px;
+            text-emphasis: spacing;
+            margin-left: 5px;
+        }
+        .Aadharno{
+            position: absolute;
+            top: 75%;
+            left: 120px;
+            height: 80px;
+            width: 160px;
+        }
+
+        .qr img
+        {
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            margin:5px;
+            
+        }
+        .qr
+        {
+            text-align: center;
+            position: absolute;
+            top:150px;
+            left: 260px;
+        }
